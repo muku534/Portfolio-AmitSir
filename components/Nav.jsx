@@ -45,8 +45,11 @@ const Nav = () => {
           <Link href='/Contact' className=''>
             Contact
           </Link>
-          <Link href='/create-prompt' className=''>
-            Create Post
+          <Link href='/Contact' className=''>
+            Material
+          </Link>
+          <Link href='/Blog' className=''>
+           Blog
           </Link>
 
           <button type='button' onClick={signOut} className='_btn flex-end' height='1px'>

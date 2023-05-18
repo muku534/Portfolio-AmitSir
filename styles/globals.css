@@ -187,7 +187,9 @@
 .profile-picture-background {
   height: 89%;
   width: 92%;
-  background-image: url("/assets/images/profilephoto.jpg");
+  /* background-image: url("/assets/images/grid.svg"); */
+  background-image: url("/assets/images/logo.svg");
+  /* background-color:black; */
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
