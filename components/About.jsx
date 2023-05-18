@@ -17,6 +17,12 @@ const About = () => {
                             professional with a BCA willing to be an asset for an
                             organization.
                         </span></h6>
+                        <h6> <span>Full Stack Web and mobile Developer with background
+                            knowledge of MERN stacks with redux,along with a knack of
+                            buliding application with utmost effciency. Storng
+                            professional with a BCA willing to be an asset for an
+                            organization.
+                        </span></h6>
                     </div>
                     <div className="mt-4">
                         <h4>Here are a few Highlights:</h4>

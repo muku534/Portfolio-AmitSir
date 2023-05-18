@@ -201,3 +201,8 @@
   transition: 1s ease-out;
 }
 
+.images{
+  background-image:url('/assets/images/library-849797.jpg');
+  height:500px;
+  width:110%
+}

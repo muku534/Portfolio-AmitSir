@@ -41,7 +41,7 @@ export default function Home() {
       </main>
       <div className=' p-24'>
         <About />
-        <Material />
+        {/* <Material /> */}
       </div>
     </>
   )
