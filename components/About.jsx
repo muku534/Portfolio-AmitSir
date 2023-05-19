@@ -3,14 +3,14 @@ const About = () => {
     return (
         <main className="flex items-center p-24 " >
             <div className="flex-center" style={{ flexDirection: "column" }}>
-                <h4 style={{ fontSize: '25px' }}> About</h4>
+            <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray">About</h2>
                 {/* <p className="mt-5"><span>I'm a Victoria based Full Stack Software Engineer, currently working at Instant Domains helping build a
                     modern, mobile-first, domain registrar and site builder.</span> </p>
 
                 <p><span>In my free time time, you can catch me training in Muay Thai, plucking my banjo, or exploring beautiful
                     Vancouver Island.</span></p> */}
-                <div className="card-body p-4 p-lg-5 text-black">
-                    <div>
+                <div className="card-body p-4 p-lg-5 text-black ">
+                    <div className="text-gray-500 sm:text-xl dark:text-black-400 text-3sm  lg:text-3md font-bold sm:text-xl">
                         <h6> <span>Full Stack Web and mobile Developer with background
                             knowledge of MERN stacks with redux,along with a knack of
                             buliding application with utmost effciency. Storng
@@ -24,7 +24,7 @@ const About = () => {
                             organization.
                         </span></h6>
                     </div>
-                    <div className="mt-4">
+                    <div className="mt-4 text-gray-500 sm:text-xl dark:text-black-400 text-3sm  lg:text-3md  sm:text-xl">
                         <h4>Here are a few Highlights:</h4>
                         <li> Full Stack web and mobile development</li>
                         <li>interactive Front End as per the design</li>
