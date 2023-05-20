@@ -13,7 +13,7 @@ export default function Home() {
           <p className='mt-5 text-gray-500 sm:text-xl dark:text-black-400 text-3sm  lg:text-3md font-bold sm:text-xl'><span>I'm a Victoria based Full Stack Software Engineer, currently working at Instant Domains helping build a
             modern, mobile-first, domain registrar and site builder.</span> </p>
 
-          <p className='mt-2  text-gray-500 sm:text-xl dark:text-black-400 text-3sm  lg:text-3md font-bold sm:text-xl'><span>In my free time time, you can catch me training in Muay Thai, plucking my banjo, or exploring beautiful
+          <p className='mt-2  text-gray-500 sm:text-xl dark:text-black-400 text-3sm  lg:text-3md  sm:text-xl'><span>In my free time time, you can catch me training in Muay Thai, plucking my banjo, or exploring beautiful
             Vancouver Island.</span></p>
           <div className='flex '>
 
@@ -26,10 +26,11 @@ export default function Home() {
         <div className="profile-picture">
           {/* <div className="profile-picture-background"> */}
           <Image
-            src="/assets/images/logo.svg"
+            src="/assets/images/mike.png"
             alt='logo'
-            width={30}
-            height={30}
+            width={300}
+            height={300}
+            quality={80}
             className='profile-picture-background'
           />
           {/* </div> */}
@@ -40,7 +41,7 @@ export default function Home() {
         {/* blog */}
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-            <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray">Our Blog</h2>
+            <h2 class="mb-4 text-5xl lg:text-5xl tracking-tight font-extrabold text-gray-900 dark:text-gray">Our Blog</h2>
           </div>
           <div class="grid gap-8 lg:grid-cols-2 mb-5">
             <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md ">

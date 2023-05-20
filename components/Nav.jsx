@@ -19,9 +19,9 @@ const Nav = () => {
   }, []);
 
   return (
-    <nav className='flex-between w-full mb-16 pt-3' style={{ boxShadow: '' }}>
+    <nav className='flex-between w-full mb-16 pt-3' >
       <Link href='/' className='flex gap-2 flex-center'>
-        <Image
+        {/* <Image
           src='/assets/images/logo.svg'
           alt='logo'
           width={30}
@@ -29,7 +29,7 @@ const Nav = () => {
           className='object-contain'
 
         />
-        <p className='logo_text'>Promptopia</p>
+        <p className='logo_text'>Dr.Amit Patel</p> */}
       </Link>
 
       {/* Desktop Navigation */}

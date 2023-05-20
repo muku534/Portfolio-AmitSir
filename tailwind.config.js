@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        satoshi: ['Satoshi', 'sans-serif'],
+        satoshi: ['Satoshi', 'sans-serif','Poppins'],
         inter: ['Inter', 'sans-serif'],
       },
       colors: {
